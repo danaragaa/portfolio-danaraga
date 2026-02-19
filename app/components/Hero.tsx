@@ -49,7 +49,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 0.35 }}
       >
         <a
-          href="mailto:hello@domain.com"
+          href="mailto:danaragaa@gmail.com"
           onClick={() => trackEvent("hero_quick_email_click", { channel: "email" })}
         >
           Email langsung

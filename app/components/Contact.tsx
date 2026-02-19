@@ -96,11 +96,11 @@ export default function Contact() {
       >
         Tertarik bekerja sama? Isi form singkat ini atau kirim email ke{" "}
         <motion.a
-          href="mailto:hello@domain.com"
+          href="mailto:danaragaa@gmail.com"
           whileHover={{ y: -1 }}
           transition={{ duration: 0.18, ease: "easeOut" }}
         >
-          hello@domain.com
+          danaragaa@gmail.com
         </motion.a>
         .
       </motion.p>
