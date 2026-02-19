@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/danaragaa", icon: FaGithub, platform: "github" },
@@ -10,12 +10,6 @@ const socialLinks = [
     href: "https://linkedin.com/in/dana-raga7",
     icon: FaLinkedin,
     platform: "linkedin",
-  },
-  {
-    label: "Instagram",
-    href: "https://instagram.com/danaragaa",
-    icon: FaInstagram,
-    platform: "instagram",
   },
 ];
 

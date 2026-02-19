@@ -3,7 +3,7 @@
 import { AnimatePresence, motion, type Variants } from "framer-motion";
 import { Arizonia } from "next/font/google";
 import { useEffect, useRef, useState } from "react";
-import { FaBars, FaGithub, FaInstagram, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { trackEvent } from "@/lib/analytics";
 
 const navItems = [
@@ -20,12 +20,6 @@ const socialLinks = [
     href: "https://linkedin.com/in/dana-raga7",
     icon: FaLinkedin,
     platform: "linkedin",
-  },
-  {
-    label: "Instagram",
-    href: "https://instagram.com/username/danaragaa",
-    icon: FaInstagram,
-    platform: "instagram",
   },
 ];
 
